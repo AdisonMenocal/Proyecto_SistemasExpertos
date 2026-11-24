@@ -12,10 +12,10 @@ Plataforma web donde cada usuario registrado tiene un blog, escribe publicacione
 
 | ID | Integrante | Rol |
 |---|---|---|
-| I1 | _(nombre pendiente)_ | UI/UX y frontend público |
-| I2 | _(nombre pendiente)_ | Frontend privado |
+| I1 | Otoniel Francisco Calero Osejo | UI/UX y frontend público |
+| I2 | Luis Ariel Gonzales Lizardo | Frontend privado |
 | I3 | Adison Josué Menocal Mondragón | Backend core |
-| I4 | _(nombre pendiente)_ | BD, contenido e integración |
+| I4 | Johnny Alexander Alvarenga Ortez | BD, contenido e integración |
 
 ## Stack
 
