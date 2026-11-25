@@ -90,3 +90,41 @@ git commit -m "feat: login con JWT"
 # 4. Subir la rama y abrir el pull request hacia develop
 git push -u origin feature/i3-auth-login
 ```
+
+---
+
+## Base de datos (MongoDB)
+
+El equipo usa un **clúster gratuito de MongoDB Atlas**: nadie tiene que instalar MongoDB. La base de datos se llama **`blogsexpertos`**.
+
+### Conectarte con Atlas (recomendado)
+
+1. Pide a I4 la **cadena de conexión** por el grupo privado. **Nunca** se escribe en el repositorio, en un commit ni en un issue.
+2. Dentro de `backend`, copia el archivo de ejemplo:
+   ```bash
+   cd backend
+   cp .env.example .env
+   ```
+3. Abre `backend/.env` y reemplaza la línea `MONGODB_URI=...` por la cadena que te pasaron. Revisa que termine en `/blogsexpertos?...`; si no lleva el nombre, Mongoose guarda todo en una base llamada `test`.
+4. Instala las dependencias y arranca:
+   ```bash
+   npm install
+   npm run dev
+   ```
+5. Debes ver:
+   ```
+   ✅ MongoDB conectado: ... · base de datos "blogsexpertos"
+   ✅ API escuchando en http://localhost:3000/api
+   ```
+
+Si sale `❌ No se pudo conectar a MongoDB`, el servidor **no arranca** (es a propósito). Revisa el usuario y la contraseña de la cadena, y avisa a I4 si tu red no está permitida en Atlas.
+
+### Opción: MongoDB instalado en tu computadora
+
+1. Instala **MongoDB Community Server** desde <https://www.mongodb.com/try/download/community> (en Windows, deja marcado «Install MongoD as a Service»).
+2. En tu `.env` usa `MONGODB_URI=mongodb://127.0.0.1:27017/blogsexpertos` (ya viene así en `.env.example`).
+3. Arranca con `npm run dev`. Ojo: con esta opción solo ves **tus** datos, no los del equipo.
+
+### Ver los datos
+
+Instala **MongoDB Compass** (<https://www.mongodb.com/products/compass>), pulsa **Add new connection**, pega la misma cadena del `.env` y abre la base `blogsexpertos`. También se pueden ver en Atlas → **Browse Collections**.

@@ -4,10 +4,20 @@
 require('dotenv').config();
 
 const app = require('./app');
+const conectarMongoDB = require('./config/database');
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
-  console.log(`✅ API escuchando en http://localhost:${PORT}/api`);
-  console.log(`   Prueba: http://localhost:${PORT}/api/health`);
+
+async function iniciarServidor() {
+
+  await conectarMongoDB();
+  
+  app.listen(PORT, () => {
+  console.log(`API escuchando en http://localhost:${PORT}/api`);
+  console.log(`Prueba: http://localhost:${PORT}/api/health`);
 });
+}
+
+iniciarServidor();
+
