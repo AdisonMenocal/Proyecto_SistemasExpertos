@@ -1,4 +1,4 @@
-# CMS de Blogs Multiusuario — «Tintero»
+# CMS de Blogs Multiusuario — «BlogsExpertos»
 
 Proyecto integrador de **Desarrollo Web** · UNAH · 22 nov – 9 dic 2026
 
