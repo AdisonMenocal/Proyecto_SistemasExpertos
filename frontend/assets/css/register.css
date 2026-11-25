@@ -1,0 +1,62 @@
+:root {
+  --tintero-navy: #1d203e;
+  --tintero-blue: #3545d5;
+  --tintero-orange: #f36b43;
+  --tintero-bg: #faf7f2;
+  --tintero-border: #e9e4dd;
+  --tintero-muted: #85899b;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; background: var(--tintero-bg); color: var(--tintero-navy); }
+.register-page { display: flex; min-height: 100vh; }
+.brand-panel { width: 42%; min-height: 100vh; background: var(--tintero-navy); color: #fff; padding: 38px 40px; position: relative; display: flex; flex-direction: column; }
+.brand { color: white; text-decoration: none; font-family: Georgia, serif; font-size: 15px; font-weight: 700; display: inline-flex; align-items: center; gap: 8px; width: fit-content; }
+.brand:hover { color: white; }
+.brand-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--tintero-orange); }
+.brand-message { margin: auto 0; max-width: 440px; transform: translateY(10px); }
+.brand-message h1 { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; font-size: clamp(28px, 3vw, 38px); margin-bottom: 15px; }
+.brand-message p { color: #a4a7b7; font-size: 14px; line-height: 1.65; max-width: 400px; }
+.quote-card { background: #30365f; border-radius: 12px; padding: 17px 18px; margin: 0; max-width: 390px; }
+.quote-card p { margin: 0 0 8px; font-size: 14px; color: #f0f1f7; }
+.quote-card footer { color: #a4a7b7; font-size: 11px; }
+.form-panel { flex: 1; display: flex; justify-content: center; align-items: center; padding: 40px 24px; }
+.register-card { width: 100%; max-width: 420px; background: #fff; border: 1px solid var(--tintero-border); border-radius: 17px; padding: 34px 36px 30px; }
+.register-card h2 { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; font-size: 28px; margin: 0 0 5px; }
+.subtitle { font-size: 12px; color: var(--tintero-muted); margin-bottom: 24px; }
+.form-field { margin-bottom: 21px; }
+.form-label { display: block; font-size: 12px; margin-bottom: 7px; color: var(--tintero-navy); }
+.form-control { height: 43px; border: 1px solid var(--tintero-border); border-radius: 9px; font-size: 13px; padding: 10px 12px; color: var(--tintero-navy); }
+.form-control::placeholder { color: #a5a8b7; }
+.form-control:focus { border-color: var(--tintero-blue); box-shadow: 0 0 0 3px rgba(53, 69, 213, .10); }
+.password-wrap { position: relative; }
+.password-wrap .form-control { padding-right: 68px; }
+.password-toggle { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); border: 0; background: transparent; color: #777d93; font-size: 11px; padding: 4px; }
+.password-toggle:hover { color: var(--tintero-blue); }
+.field-hint { display: block; margin-top: 6px; font-size: 11px; color: var(--tintero-muted); }
+.register-button { width: 100%; background: var(--tintero-blue); border-color: var(--tintero-blue); border-radius: 9px; height: 43px; font-size: 13px; margin-top: 3px; }
+.register-button:hover, .register-button:focus { background: #2938c2; border-color: #2938c2; }
+.register-button:disabled { opacity: .7; }
+.login-link { margin: 17px 0 0; font-size: 12px; color: var(--tintero-muted); }
+.login-link a { text-decoration: none; color: var(--tintero-blue); font-weight: 500; }
+.login-link a:hover { text-decoration: underline; }
+.form-message { display: none; margin-bottom: 15px; border-radius: 8px; padding: 10px 12px; font-size: 12px; }
+.form-message.show { display: block; }
+.form-message.error { color: #842029; background: #f8d7da; }
+.form-message.success { color: #0f5132; background: #d1e7dd; }
+
+@media (max-width: 768px) {
+  .register-page { flex-direction: column; }
+  .brand-panel { width: 100%; min-height: auto; padding: 24px; }
+  .brand-message { margin: 48px 0 25px; transform: none; }
+  .brand-message h1 { font-size: 30px; }
+  .quote-card { display: none; }
+  .form-panel { padding: 28px 18px; }
+  .register-card { max-width: 480px; padding: 28px 25px; }
+}
+@media (max-width: 420px) {
+  .brand-panel { padding: 20px; }
+  .brand-message { margin: 34px 0 12px; }
+  .brand-message p { font-size: 13px; }
+  .register-card { padding: 25px 20px; }
+}
