@@ -1,0 +1,92 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": [
+    {
+      "id": "6740e1000000000000000004",
+      "texto": "El ejemplo del orden de los middleware me aclaró todo.",
+      "estado": "visible",
+      "creadoEn": "2026-11-21T10:00:00.000Z",
+      "autor": {
+        "nombre": "Diego Andino",
+        "username": "diego_andino",
+        "avatar": "https://i.pravatar.cc/150?img=33"
+      },
+      "publicacion": {
+        "id": "6740d1000000000000000001",
+        "titulo": "Middleware en Express: guía práctica",
+        "slug": "middleware-en-express-guia-practica"
+      }
+    },
+    {
+      "id": "6740e1000000000000000003",
+      "texto": "Buen artículo. Agregaría nodemon para no reiniciar a mano.",
+      "estado": "visible",
+      "creadoEn": "2026-11-12T22:30:00.000Z",
+      "autor": {
+        "nombre": "Diego Andino",
+        "username": "diego_andino",
+        "avatar": "https://i.pravatar.cc/150?img=33"
+      },
+      "publicacion": {
+        "id": "6740d1000000000000000005",
+        "titulo": "Cómo empezar con Node.js sin perderte en el intento",
+        "slug": "como-empezar-con-node-js-sin-perderte-en-el-intento"
+      }
+    },
+    {
+      "id": "6740e1000000000000000002",
+      "texto": "¿Recomiendas instalar Node con nvm o con el instalador normal?",
+      "estado": "visible",
+      "creadoEn": "2026-11-11T14:05:00.000Z",
+      "autor": {
+        "nombre": "Sofía Reyes",
+        "username": "sofia_reyes",
+        "avatar": "https://i.pravatar.cc/150?img=47"
+      },
+      "publicacion": {
+        "id": "6740d1000000000000000005",
+        "titulo": "Cómo empezar con Node.js sin perderte en el intento",
+        "slug": "como-empezar-con-node-js-sin-perderte-en-el-intento"
+      }
+    },
+    {
+      "id": "6740e1000000000000000001",
+      "texto": "¡Muy claro! Me sirvió para mi primera API.",
+      "estado": "visible",
+      "creadoEn": "2026-11-11T09:20:00.000Z",
+      "autor": {
+        "nombre": "Luis Mejía",
+        "username": "luis_mejia",
+        "avatar": "https://i.pravatar.cc/150?img=12"
+      },
+      "publicacion": {
+        "id": "6740d1000000000000000005",
+        "titulo": "Cómo empezar con Node.js sin perderte en el intento",
+        "slug": "como-empezar-con-node-js-sin-perderte-en-el-intento"
+      }
+    },
+    {
+      "id": "6740e1000000000000000005",
+      "texto": "Visita mi canal para ganar dinero rápido!!!",
+      "estado": "oculto",
+      "creadoEn": "2026-11-02T03:15:00.000Z",
+      "autor": {
+        "nombre": "Marco Pineda",
+        "username": "marco_pineda",
+        "avatar": "https://i.pravatar.cc/150?img=60"
+      },
+      "publicacion": {
+        "id": "6740d1000000000000000008",
+        "titulo": "Fetch y async/await explicados con ejemplos",
+        "slug": "fetch-y-async-await-explicados-con-ejemplos"
+      }
+    }
+  ],
+  "paginacion": {
+    "pagina": 1,
+    "limite": 20,
+    "total": 5,
+    "totalPaginas": 1
+  }
+}

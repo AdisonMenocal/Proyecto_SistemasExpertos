@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "mensaje": "Cuenta creada",
+  "data": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.mock.token-de-prueba-no-es-real",
+    "usuario": {
+      "id": "6740a1000000000000000005",
+      "nombre": "Marco Pineda",
+      "username": "marco_pineda",
+      "correo": "marco@unah.hn",
+      "rol": "autor",
+      "biografia": "",
+      "avatar": "https://i.pravatar.cc/150?img=60",
+      "activo": true,
+      "creadoEn": "2026-11-25T18:00:00.000Z"
+    }
+  }
+}

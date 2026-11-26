@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": {
+    "publicados": 3,
+    "borradores": 2,
+    "archivados": 1,
+    "comentarios": 5,
+    "meGusta": 27
+  }
+}

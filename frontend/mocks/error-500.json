@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "error": {
+    "codigo": "ERROR_SERVIDOR",
+    "mensaje": "Ocurrió un error, intenta de nuevo"
+  }
+}

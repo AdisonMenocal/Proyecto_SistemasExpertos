@@ -1,0 +1,240 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": [
+    {
+      "id": "6740d1000000000000000001",
+      "titulo": "Middleware en Express: guía práctica",
+      "slug": "middleware-en-express-guia-practica",
+      "resumen": "Qué es un middleware, en qué orden se ejecuta y cuándo usarlo.",
+      "portada": "https://picsum.photos/seed/express/1200/630",
+      "estado": "publicado",
+      "fechaPublicacion": "2026-11-20T15:00:00.000Z",
+      "actualizadoEn": "2026-11-20T15:00:00.000Z",
+      "etiquetas": [
+        "express",
+        "nodejs"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000001",
+        "nombre": "Programación",
+        "slug": "programacion"
+      },
+      "autor": {
+        "nombre": "Ana López",
+        "username": "ana_lopez",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+      },
+      "blog": {
+        "nombre": "Código con Ana",
+        "slug": "codigo-con-ana"
+      }
+    },
+    {
+      "id": "6740d1000000000000000002",
+      "titulo": "Índices en MongoDB: cuándo sí y cuándo no",
+      "slug": "indices-en-mongodb-cuando-si-y-cuando-no",
+      "resumen": "Un índice acelera las búsquedas, pero no es gratis. Te cuento cómo decidir.",
+      "portada": "https://picsum.photos/seed/indices/1200/630",
+      "estado": "publicado",
+      "fechaPublicacion": "2026-11-18T13:30:00.000Z",
+      "actualizadoEn": "2026-11-18T13:30:00.000Z",
+      "etiquetas": [
+        "mongodb",
+        "rendimiento"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000002",
+        "nombre": "Bases de datos",
+        "slug": "bases-de-datos"
+      },
+      "autor": {
+        "nombre": "Luis Mejía",
+        "username": "luis_mejia",
+        "avatar": "https://i.pravatar.cc/150?img=12"
+      },
+      "blog": {
+        "nombre": "Datos sin miedo",
+        "slug": "datos-sin-miedo"
+      }
+    },
+    {
+      "id": "6740d1000000000000000003",
+      "titulo": "Paletas de color accesibles para tu blog",
+      "slug": "paletas-de-color-accesibles-para-tu-blog",
+      "resumen": "Cómo elegir colores con buen contraste sin que tu sitio se vea aburrido.",
+      "portada": "https://picsum.photos/seed/paletas/1200/630",
+      "estado": "publicado",
+      "fechaPublicacion": "2026-11-15T17:45:00.000Z",
+      "actualizadoEn": "2026-11-16T09:20:00.000Z",
+      "etiquetas": [
+        "accesibilidad",
+        "css",
+        "color"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000004",
+        "nombre": "Diseño web",
+        "slug": "diseno-web"
+      },
+      "autor": {
+        "nombre": "Sofía Reyes",
+        "username": "sofia_reyes",
+        "avatar": "https://i.pravatar.cc/150?img=47"
+      },
+      "blog": {
+        "nombre": "Pixel y Café",
+        "slug": "pixel-y-cafe"
+      }
+    },
+    {
+      "id": "6740d1000000000000000004",
+      "titulo": "Cómo guardar contraseñas de forma segura con bcrypt",
+      "slug": "como-guardar-contrasenas-de-forma-segura-con-bcrypt",
+      "resumen": "Nunca guardes una contraseña tal cual. Así funciona un hash con sal.",
+      "portada": "https://picsum.photos/seed/bcrypt/1200/630",
+      "estado": "publicado",
+      "fechaPublicacion": "2026-11-12T19:00:00.000Z",
+      "actualizadoEn": "2026-11-12T19:00:00.000Z",
+      "etiquetas": [
+        "bcrypt",
+        "seguridad",
+        "nodejs"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000005",
+        "nombre": "Seguridad",
+        "slug": "seguridad"
+      },
+      "autor": {
+        "nombre": "Diego Andino",
+        "username": "diego_andino",
+        "avatar": "https://i.pravatar.cc/150?img=33"
+      },
+      "blog": {
+        "nombre": "Ruta Dev",
+        "slug": "ruta-dev"
+      }
+    },
+    {
+      "id": "6740d1000000000000000005",
+      "titulo": "Cómo empezar con Node.js sin perderte en el intento",
+      "slug": "como-empezar-con-node-js-sin-perderte-en-el-intento",
+      "resumen": "Una guía corta para dar tus primeros pasos con Node.",
+      "portada": "https://picsum.photos/seed/node/1200/630",
+      "estado": "publicado",
+      "fechaPublicacion": "2026-11-10T16:00:00.000Z",
+      "actualizadoEn": "2026-11-10T16:00:00.000Z",
+      "etiquetas": [
+        "nodejs",
+        "javascript",
+        "principiantes"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000001",
+        "nombre": "Programación",
+        "slug": "programacion"
+      },
+      "autor": {
+        "nombre": "Ana López",
+        "username": "ana_lopez",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+      },
+      "blog": {
+        "nombre": "Código con Ana",
+        "slug": "codigo-con-ana"
+      }
+    },
+    {
+      "id": "6740d1000000000000000006",
+      "titulo": "Modelar relaciones en Mongoose sin complicarte",
+      "slug": "modelar-relaciones-en-mongoose-sin-complicarte",
+      "resumen": "Referencias o documentos incrustados: una regla simple para elegir.",
+      "portada": "https://picsum.photos/seed/relaciones/1200/630",
+      "estado": "publicado",
+      "fechaPublicacion": "2026-11-05T14:15:00.000Z",
+      "actualizadoEn": "2026-11-05T14:15:00.000Z",
+      "etiquetas": [
+        "mongoose",
+        "mongodb"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000002",
+        "nombre": "Bases de datos",
+        "slug": "bases-de-datos"
+      },
+      "autor": {
+        "nombre": "Luis Mejía",
+        "username": "luis_mejia",
+        "avatar": "https://i.pravatar.cc/150?img=12"
+      },
+      "blog": {
+        "nombre": "Datos sin miedo",
+        "slug": "datos-sin-miedo"
+      }
+    },
+    {
+      "id": "6740d1000000000000000007",
+      "titulo": "Tu primer portafolio como desarrollador junior",
+      "slug": "tu-primer-portafolio-como-desarrollador-junior",
+      "resumen": "Tres proyectos bien hechos valen más que diez a medias.",
+      "portada": "https://picsum.photos/seed/portafolio/1200/630",
+      "estado": "publicado",
+      "fechaPublicacion": "2026-10-28T20:30:00.000Z",
+      "actualizadoEn": "2026-10-28T20:30:00.000Z",
+      "etiquetas": [
+        "portafolio",
+        "empleo"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000003",
+        "nombre": "Carrera profesional",
+        "slug": "carrera"
+      },
+      "autor": {
+        "nombre": "Diego Andino",
+        "username": "diego_andino",
+        "avatar": "https://i.pravatar.cc/150?img=33"
+      },
+      "blog": {
+        "nombre": "Ruta Dev",
+        "slug": "ruta-dev"
+      }
+    },
+    {
+      "id": "6740d1000000000000000008",
+      "titulo": "Fetch y async/await explicados con ejemplos",
+      "slug": "fetch-y-async-await-explicados-con-ejemplos",
+      "resumen": "Pedir datos a una API desde el navegador, paso a paso.",
+      "portada": "https://picsum.photos/seed/fetch/1200/630",
+      "estado": "publicado",
+      "fechaPublicacion": "2026-10-20T15:10:00.000Z",
+      "actualizadoEn": "2026-10-21T08:00:00.000Z",
+      "etiquetas": [
+        "javascript",
+        "fetch",
+        "async-await"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000001",
+        "nombre": "Programación",
+        "slug": "programacion"
+      },
+      "autor": {
+        "nombre": "Ana López",
+        "username": "ana_lopez",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+      },
+      "blog": {
+        "nombre": "Código con Ana",
+        "slug": "codigo-con-ana"
+      }
+    }
+  ],
+  "paginacion": {
+    "pagina": 1,
+    "limite": 9,
+    "total": 8,
+    "totalPaginas": 1
+  }
+}

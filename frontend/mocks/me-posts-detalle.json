@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": {
+    "id": "6740d1000000000000000009",
+    "titulo": "Validar formularios con JavaScript puro",
+    "slug": "validar-formularios-con-javascript-puro",
+    "resumen": "Revisar los datos antes de enviarlos, sin librerías.",
+    "contenido": "Antes de enviar un formulario al servidor conviene revisar los datos en el navegador. No reemplaza la validación del backend, pero avisa al usuario más rápido.\n\nEn este borrador voy a explicar cómo usar el evento submit, cómo mostrar el error debajo de cada campo y cómo bloquear el botón mientras se envía la petición.",
+    "portada": "https://picsum.photos/seed/formularios/1200/630",
+    "estado": "borrador",
+    "fechaPublicacion": null,
+    "creadoEn": "2026-11-23T02:00:00.000Z",
+    "actualizadoEn": "2026-11-24T23:40:00.000Z",
+    "etiquetas": [
+      "javascript",
+      "formularios"
+    ],
+    "categoria": {
+      "id": "6740c1000000000000000001",
+      "nombre": "Programación",
+      "slug": "programacion"
+    },
+    "autor": {
+      "nombre": "Ana López",
+      "username": "ana_lopez",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "biografia": "Apuntes de programación para quienes empiezan."
+    },
+    "blog": {
+      "nombre": "Código con Ana",
+      "slug": "codigo-con-ana"
+    }
+  }
+}
