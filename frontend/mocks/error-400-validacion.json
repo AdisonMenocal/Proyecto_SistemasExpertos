@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "error": {
+    "codigo": "VALIDACION",
+    "mensaje": "No se puede publicar todavía",
+    "campos": {
+      "titulo": "El título debe tener al menos 5 caracteres",
+      "contenido": "El contenido debe tener al menos 50 caracteres"
+    }
+  }
+}

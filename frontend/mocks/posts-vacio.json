@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": [],
+  "paginacion": {
+    "pagina": 1,
+    "limite": 9,
+    "total": 0,
+    "totalPaginas": 0
+  }
+}

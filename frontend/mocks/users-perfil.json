@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": {
+    "nombre": "Ana López",
+    "username": "ana_lopez",
+    "biografia": "Apuntes de programación para quienes empiezan.",
+    "avatar": "https://i.pravatar.cc/150?img=5",
+    "blog": {
+      "nombre": "Código con Ana",
+      "slug": "codigo-con-ana"
+    }
+  }
+}

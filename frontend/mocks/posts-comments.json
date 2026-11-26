@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": [
+    {
+      "id": "6740e1000000000000000003",
+      "texto": "Buen artículo. Agregaría nodemon para no reiniciar a mano.",
+      "estado": "visible",
+      "creadoEn": "2026-11-12T22:30:00.000Z",
+      "autor": {
+        "nombre": "Diego Andino",
+        "username": "diego_andino",
+        "avatar": "https://i.pravatar.cc/150?img=33"
+      }
+    },
+    {
+      "id": "6740e1000000000000000002",
+      "texto": "¿Recomiendas instalar Node con nvm o con el instalador normal?",
+      "estado": "visible",
+      "creadoEn": "2026-11-11T14:05:00.000Z",
+      "autor": {
+        "nombre": "Sofía Reyes",
+        "username": "sofia_reyes",
+        "avatar": "https://i.pravatar.cc/150?img=47"
+      }
+    },
+    {
+      "id": "6740e1000000000000000001",
+      "texto": "¡Muy claro! Me sirvió para mi primera API.",
+      "estado": "visible",
+      "creadoEn": "2026-11-11T09:20:00.000Z",
+      "autor": {
+        "nombre": "Luis Mejía",
+        "username": "luis_mejia",
+        "avatar": "https://i.pravatar.cc/150?img=12"
+      }
+    }
+  ],
+  "paginacion": {
+    "pagina": 1,
+    "limite": 20,
+    "total": 3,
+    "totalPaginas": 1
+  }
+}

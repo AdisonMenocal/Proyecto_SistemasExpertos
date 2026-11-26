@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "error": {
+    "codigo": "SIN_PERMISO",
+    "mensaje": "Este contenido no te pertenece"
+  }
+}

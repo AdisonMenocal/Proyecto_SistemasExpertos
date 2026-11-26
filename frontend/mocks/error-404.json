@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "error": {
+    "codigo": "NO_ENCONTRADO",
+    "mensaje": "Publicación no encontrada"
+  }
+}

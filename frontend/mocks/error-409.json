@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "error": {
+    "codigo": "CONFLICTO",
+    "mensaje": "El correo o el username ya están registrados"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": {
+    "id": "6740a1000000000000000001",
+    "nombre": "Ana López",
+    "username": "ana_lopez",
+    "correo": "ana@unah.hn",
+    "rol": "autor",
+    "biografia": "Apuntes de programación para quienes empiezan.",
+    "avatar": "https://i.pravatar.cc/150?img=5",
+    "activo": true,
+    "creadoEn": "2026-03-02T14:00:00.000Z"
+  }
+}

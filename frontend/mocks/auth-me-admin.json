@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": {
+    "id": "6740a1000000000000000004",
+    "nombre": "Diego Andino",
+    "username": "diego_andino",
+    "correo": "diego@unah.hn",
+    "rol": "admin",
+    "biografia": "Backend, seguridad y consejos para juniors.",
+    "avatar": "https://i.pravatar.cc/150?img=33",
+    "activo": true,
+    "creadoEn": "2026-06-08T21:40:00.000Z"
+  }
+}

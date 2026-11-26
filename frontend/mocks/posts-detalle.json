@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": {
+    "id": "6740d1000000000000000005",
+    "titulo": "Cómo empezar con Node.js sin perderte en el intento",
+    "slug": "como-empezar-con-node-js-sin-perderte-en-el-intento",
+    "resumen": "Una guía corta para dar tus primeros pasos con Node.",
+    "contenido": "Node.js te permite usar JavaScript fuera del navegador. En esta guía vamos a instalarlo, entender qué es npm y crear un primer servidor en menos de diez minutos.\n\nPrimero, descarga la versión LTS desde la página oficial de Node.js. LTS significa «soporte a largo plazo»: es la versión más estable y la que usan casi todos los proyectos. Para comprobar la instalación, abre una terminal y escribe node -v y npm -v. Si ves dos números de versión, todo salió bien.\n\nnpm es el gestor de paquetes de Node. Con él instalas librerías que otras personas ya escribieron, como Express, que facilita crear servidores web. Crea una carpeta nueva, entra en ella y ejecuta npm init -y para generar el archivo package.json, que guarda el nombre del proyecto y sus dependencias.\n\nAhora instala Express con npm install express y crea un archivo llamado server.js. Dentro, importa Express, crea la aplicación, define una ruta que responda «Hola mundo» y pon el servidor a escuchar en el puerto 3000. Ejecuta node server.js y abre http://localhost:3000 en el navegador.\n\n¡Listo! Ya tienes tu primer servidor. En el próximo artículo veremos qué son los middleware y cómo organizar las rutas en carpetas para que el proyecto no se vuelva un desorden.",
+    "portada": "https://picsum.photos/seed/node/1200/630",
+    "estado": "publicado",
+    "fechaPublicacion": "2026-11-10T16:00:00.000Z",
+    "creadoEn": "2026-11-08T12:00:00.000Z",
+    "actualizadoEn": "2026-11-10T16:00:00.000Z",
+    "etiquetas": [
+      "nodejs",
+      "javascript",
+      "principiantes"
+    ],
+    "categoria": {
+      "id": "6740c1000000000000000001",
+      "nombre": "Programación",
+      "slug": "programacion"
+    },
+    "autor": {
+      "nombre": "Ana López",
+      "username": "ana_lopez",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "biografia": "Apuntes de programación para quienes empiezan."
+    },
+    "blog": {
+      "nombre": "Código con Ana",
+      "slug": "codigo-con-ana"
+    }
+  }
+}

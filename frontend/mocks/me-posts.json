@@ -1,0 +1,175 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": [
+    {
+      "id": "6740d1000000000000000009",
+      "titulo": "Validar formularios con JavaScript puro",
+      "slug": "validar-formularios-con-javascript-puro",
+      "resumen": "Revisar los datos antes de enviarlos, sin librerías.",
+      "portada": "https://picsum.photos/seed/formularios/1200/630",
+      "estado": "borrador",
+      "fechaPublicacion": null,
+      "actualizadoEn": "2026-11-24T23:40:00.000Z",
+      "etiquetas": [
+        "javascript",
+        "formularios"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000001",
+        "nombre": "Programación",
+        "slug": "programacion"
+      },
+      "autor": {
+        "nombre": "Ana López",
+        "username": "ana_lopez",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+      },
+      "blog": {
+        "nombre": "Código con Ana",
+        "slug": "codigo-con-ana"
+      }
+    },
+    {
+      "id": "6740d100000000000000000a",
+      "titulo": "Ideas para mi próximo artículo",
+      "slug": "ideas-para-mi-proximo-articulo",
+      "resumen": "",
+      "portada": "",
+      "estado": "borrador",
+      "fechaPublicacion": null,
+      "actualizadoEn": "2026-11-22T04:15:00.000Z",
+      "etiquetas": [],
+      "categoria": null,
+      "autor": {
+        "nombre": "Ana López",
+        "username": "ana_lopez",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+      },
+      "blog": {
+        "nombre": "Código con Ana",
+        "slug": "codigo-con-ana"
+      }
+    },
+    {
+      "id": "6740d1000000000000000001",
+      "titulo": "Middleware en Express: guía práctica",
+      "slug": "middleware-en-express-guia-practica",
+      "resumen": "Qué es un middleware, en qué orden se ejecuta y cuándo usarlo.",
+      "portada": "https://picsum.photos/seed/express/1200/630",
+      "estado": "publicado",
+      "fechaPublicacion": "2026-11-20T15:00:00.000Z",
+      "actualizadoEn": "2026-11-20T15:00:00.000Z",
+      "etiquetas": [
+        "express",
+        "nodejs"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000001",
+        "nombre": "Programación",
+        "slug": "programacion"
+      },
+      "autor": {
+        "nombre": "Ana López",
+        "username": "ana_lopez",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+      },
+      "blog": {
+        "nombre": "Código con Ana",
+        "slug": "codigo-con-ana"
+      }
+    },
+    {
+      "id": "6740d1000000000000000005",
+      "titulo": "Cómo empezar con Node.js sin perderte en el intento",
+      "slug": "como-empezar-con-node-js-sin-perderte-en-el-intento",
+      "resumen": "Una guía corta para dar tus primeros pasos con Node.",
+      "portada": "https://picsum.photos/seed/node/1200/630",
+      "estado": "publicado",
+      "fechaPublicacion": "2026-11-10T16:00:00.000Z",
+      "actualizadoEn": "2026-11-10T16:00:00.000Z",
+      "etiquetas": [
+        "nodejs",
+        "javascript",
+        "principiantes"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000001",
+        "nombre": "Programación",
+        "slug": "programacion"
+      },
+      "autor": {
+        "nombre": "Ana López",
+        "username": "ana_lopez",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+      },
+      "blog": {
+        "nombre": "Código con Ana",
+        "slug": "codigo-con-ana"
+      }
+    },
+    {
+      "id": "6740d100000000000000000b",
+      "titulo": "Mi configuración de VS Code",
+      "slug": "mi-configuracion-de-vs-code",
+      "resumen": "Extensiones y atajos que uso todos los días.",
+      "portada": "https://picsum.photos/seed/vscode/1200/630",
+      "estado": "archivado",
+      "fechaPublicacion": "2026-09-15T18:00:00.000Z",
+      "actualizadoEn": "2026-11-03T16:45:00.000Z",
+      "etiquetas": [
+        "vscode",
+        "herramientas"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000001",
+        "nombre": "Programación",
+        "slug": "programacion"
+      },
+      "autor": {
+        "nombre": "Ana López",
+        "username": "ana_lopez",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+      },
+      "blog": {
+        "nombre": "Código con Ana",
+        "slug": "codigo-con-ana"
+      }
+    },
+    {
+      "id": "6740d1000000000000000008",
+      "titulo": "Fetch y async/await explicados con ejemplos",
+      "slug": "fetch-y-async-await-explicados-con-ejemplos",
+      "resumen": "Pedir datos a una API desde el navegador, paso a paso.",
+      "portada": "https://picsum.photos/seed/fetch/1200/630",
+      "estado": "publicado",
+      "fechaPublicacion": "2026-10-20T15:10:00.000Z",
+      "actualizadoEn": "2026-10-21T08:00:00.000Z",
+      "etiquetas": [
+        "javascript",
+        "fetch",
+        "async-await"
+      ],
+      "categoria": {
+        "id": "6740c1000000000000000001",
+        "nombre": "Programación",
+        "slug": "programacion"
+      },
+      "autor": {
+        "nombre": "Ana López",
+        "username": "ana_lopez",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+      },
+      "blog": {
+        "nombre": "Código con Ana",
+        "slug": "codigo-con-ana"
+      }
+    }
+  ],
+  "paginacion": {
+    "pagina": 1,
+    "limite": 10,
+    "total": 6,
+    "totalPaginas": 1
+  }
+}

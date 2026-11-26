@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": {
+    "id": "6740b1000000000000000001",
+    "nombre": "Código con Ana",
+    "descripcion": "Apuntes de programación para quienes empiezan",
+    "slug": "codigo-con-ana",
+    "imagen": "https://picsum.photos/seed/ana/1600/400",
+    "activo": true,
+    "creadoEn": "2026-03-02T14:10:00.000Z",
+    "autor": {
+      "nombre": "Ana López",
+      "username": "ana_lopez",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "biografia": "Apuntes de programación para quienes empiezan."
+    }
+  }
+}

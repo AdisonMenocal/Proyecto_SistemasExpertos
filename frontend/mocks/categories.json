@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "mensaje": "Consulta exitosa",
+  "data": [
+    {
+      "id": "6740c1000000000000000002",
+      "nombre": "Bases de datos",
+      "slug": "bases-de-datos",
+      "descripcion": "Modelado, consultas y rendimiento",
+      "activo": true
+    },
+    {
+      "id": "6740c1000000000000000003",
+      "nombre": "Carrera profesional",
+      "slug": "carrera",
+      "descripcion": "Empleo, portafolio y crecimiento",
+      "activo": true
+    },
+    {
+      "id": "6740c1000000000000000004",
+      "nombre": "Diseño web",
+      "slug": "diseno-web",
+      "descripcion": "Interfaces, color, tipografía y accesibilidad",
+      "activo": true
+    },
+    {
+      "id": "6740c1000000000000000001",
+      "nombre": "Programación",
+      "slug": "programacion",
+      "descripcion": "Lenguajes, frameworks y buenas prácticas",
+      "activo": true
+    },
+    {
+      "id": "6740c1000000000000000005",
+      "nombre": "Seguridad",
+      "slug": "seguridad",
+      "descripcion": "Proteger datos y aplicaciones",
+      "activo": true
+    }
+  ]
+}
